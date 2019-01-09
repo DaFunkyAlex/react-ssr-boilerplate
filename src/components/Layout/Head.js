@@ -4,7 +4,7 @@ import {Helmet} from 'react-helmet';
 const isProd = process.env.NODE_ENV === 'production';
 
 function Head({
-                  title = 'DK React Boilerplate',
+                  title = 'React Boilerplate',
                   description = 'React Boilerplate with Redux, SSR, SASS',
                   image = 'https://i.imgur.com/lvzUVyf.jpg',
                   children,

@@ -1,10 +1,13 @@
 import React from 'react';
 import styler from '../helpers/styler';
+import Head from "./Layout/Head";
 
 class Dashboard extends React.Component {
 
     render() {
         return (
+            <div>
+                <Head title="React Boilerplate • Blog" />
             <article>
                 <div className={styler(["title-block"])}>
                     <div className={styler(["left"])}>
@@ -38,6 +41,7 @@ class Dashboard extends React.Component {
                     </div>
                 </div>
             </article>
+            </div>
 
         )
     }

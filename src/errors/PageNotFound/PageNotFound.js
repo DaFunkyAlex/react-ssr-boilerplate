@@ -12,11 +12,9 @@ function PageNotFound() {
             <Fade>
                 <div>
                     <div>
-                        <h1>Seite nicht gefunden</h1>
+                        <h1>404 - Page Not Found</h1>
                     </div>
-                    <p>Liebe Besucherin, lieber Besucher,</p>
-                    <p>Die angegebene Seite konnte nicht dargestellt werden. Kontrollieren Sie bitte die angegebene URL auf eventuelle Schreibfehler oder gehen Sie auf die <Link to="/">Startseite</Link> und verwenden
-                        Sie die Navigation.</p>
+                    <p>We're sorry, but this page does not exists. Please start from our <Link to="/">Homepage</Link> or use the navigation.</p>
                 </div>
             </Fade>
         </Fragment>

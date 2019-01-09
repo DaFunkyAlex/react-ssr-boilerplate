@@ -19,7 +19,7 @@ class Header extends Component {
                     </div>
 
                     <div className={styler(["user-area", "position-relative"])}>
-                        <img src="https://placehold.it/30x30" className={styler(["margin-small-right"])}/>
+                        <img src="https://placehold.it/30x30" alt="Avatar" className={styler(["margin-small-right"])}/>
                         <a href="#" onClick={() => {
                             this.setState({showUserMenu: !this.state.showUserMenu})
                         }}> {this.props.auth.user.first_name} {this.props.auth.user.last_name} <FontAwesomeIcon icon="caret-down"/></a>

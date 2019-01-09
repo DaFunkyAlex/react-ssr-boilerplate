@@ -22,7 +22,7 @@ const icons = {
         faLock, faLockOpen, faUnlock, faSignOutAlt, faPowerOff, faCheck, faTimes,
         faCommentDots, faCog, faEnvelope,
     )
-}
+};
 
 
 export default icons;
