@@ -3,16 +3,16 @@ Yet Another React Boilerplate
 
 |👇|Includes|
 |:-:|:---|
-|Babel 7|
-|Webpack 4|
-|React 16.7|
-|CSS Modules|
-|PostCSS|
-|Express Server|
-|Hot Module Replacement|
-|Code Splitting|
-|Server Side Rendering|
-|Redux|
+|+|Babel 7|
+|+|Webpack 4|
+|+|React 16.7|
+|+|CSS Modules|
+|+|PostCSS|
+|+|Express Server|
+|+|Hot Module Replacement|
+|+|Code Splitting|
+|+|Server Side Rendering|
+|+|Redux|
 
 ### Install dependencies
 ```
