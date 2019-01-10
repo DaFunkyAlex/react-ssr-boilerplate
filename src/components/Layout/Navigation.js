@@ -109,7 +109,6 @@ class Navigation extends Component {
                             <>
                                 <a href="#" onClick={(event) => {
                                     this.toggleClass(event, index);
-                                    item.submenuOpened ? console.log('auto') : console.log(0);
                                 }}>
                                     <FontAwesomeIcon icon={item.icon} className={styles.icon}/>
                                     <span>{item.label}</span>

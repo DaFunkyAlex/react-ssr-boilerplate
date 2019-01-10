@@ -63,6 +63,6 @@ export default ({clientStats}) => (req, res) => {
         .send(
             `<!doctype html><html lang="de"><head><meta name="theme-color" content="#000000"/>${styles}${
                 helmet.title
-                }${helmet.meta.toString()}${helmet.link.toString()}</head><body><div id="react-root" class="app"><div>${app}</div></div>${js}${cssHash}</body></html>`,
+                }${helmet.meta.toString()}${helmet.link.toString()}${js}${cssHash}</head><body><div id="react-root" class="app"><div>${app}</div></div></body></html>`,
         );
 };

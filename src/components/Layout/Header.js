@@ -27,9 +27,9 @@ class Header extends Component {
                         {this.state.showUserMenu &&
                         <div className={styler(["user-menu"])}>
                             <ul>
-                                <li><span className={styler(["margin-small-right"])}><FontAwesomeIcon icon={"user"}/></span> Profil</li>
-                                <li><span className={styler(["margin-small-right"])}><FontAwesomeIcon icon={"cog"}/></span> Einstellungen</li>
-                                <li><span className={styler(["margin-small-right"])}><FontAwesomeIcon icon={"envelope"}/></span> Nachrichten</li>
+                                <li><span className={styler(["margin-small-right"])}><FontAwesomeIcon icon={"user"}/></span> Profile</li>
+                                <li><span className={styler(["margin-small-right"])}><FontAwesomeIcon icon={"cog"}/></span> Settings</li>
+                                <li><span className={styler(["margin-small-right"])}><FontAwesomeIcon icon={"envelope"}/></span> Messages</li>
                                 <hr/>
                                 <li><span className={styler(["margin-small-right"])}><FontAwesomeIcon icon={"power-off"}/></span> Logout</li>
                             </ul>
