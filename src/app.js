@@ -9,6 +9,7 @@ import moment from 'moment';
 import 'moment/locale/de';
 import TagManager from 'react-gtm-module';
 import './helpers/icons';
+import './assets/scss/style.scss';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(allReducers, composeEnhancers(
@@ -32,6 +33,7 @@ class Index extends React.Component {
 
     render() {
 
+
         if (this.state.loading) {
             return <div>loading...</div>
         } else {
@@ -41,7 +43,11 @@ class Index extends React.Component {
                 </Provider>
             )
         }
+
     }
+
 };
 
 ReactDOM.render(<Index/>, document.getElementById('react-root'));
+
+
